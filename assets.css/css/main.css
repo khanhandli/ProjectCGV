@@ -1,0 +1,387 @@
+.header {
+    height: var(--header-height);
+}
+.header__img {
+    display: flex;
+    justify-content: center;
+}
+.header__img-css {
+    width: 100%;
+}
+.header__nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2px 0;
+
+}
+.header__nav-title {
+    margin-left: 30px;
+    font-size: 1.4rem;
+    color: #777;
+}
+
+.header__nav-title-icon {
+    font-size: 2rem;
+    position: relative;
+    top: 49%;
+    right: 2px;
+    transform: translateY(-50%);
+}
+
+.header__nav-title-text{
+    text-decoration: none;  
+    color: #777;
+
+}
+
+
+.header__nav-language {
+    height: 20px;
+    display: flex;
+    width: 80px;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(13%);
+}
+.header__nav-language-text {
+    font-size: 1.4rem;
+    height: 100%;
+    width: 40px;
+    background-color: #898987;
+    color: var(--white-color);
+    line-height: 20px;
+}
+.header__nav-language-text:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ } 
+.header__nav-language-text:last-child { 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header__nav-language-text-VN {
+    background-color: #E71A0F;
+}
+
+/* ? CSS NAV header body */
+.header__body { 
+    background-image: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/bg-top.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 140px;
+    background-size: contain;
+}
+.header__body-navbar{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__body-logo{
+
+}
+.header__body-column {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header__body-logo-img{
+    display: block;
+}
+.header__body-logo-link {
+    text-decoration: none;
+}
+.header__body-logo-img:hover {
+    opacity: 0.8;
+}
+
+.header__body-ticket-img-position {
+    position: relative;
+    top: 50%;
+    display: inline-block;
+    transform: translateY(-62%);
+}
+
+.header__body-list{
+    display: flex;
+    margin: 0;
+    list-style: none;
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: #222222;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+
+.header__body-list-item{
+    margin-right: 50px;
+}
+
+.header__body-ticket{
+}
+
+.header__body-ticket-img{
+}
+
+/* todo list item css */
+.header__body-span {
+    position: relative;
+}
+.header__body-list1 {
+    position: absolute;
+    left: 0;
+    min-width: 190px;
+    background-color: #393939;
+    color: var(--white-color);
+    list-style: none;
+    padding-left: 0;
+    padding: 3px;
+    display: none;
+    animation: hienlen linear 0.3s;
+}
+.header__body-item1 {
+    border-left: 2px solid #828282;
+    border-right: 2px solid #828282;
+}
+.header__body-item1:first-child {
+    padding-top: 16px;
+    border-top: 2px solid #828282;
+}
+.header__body-item1:last-child {
+    padding-bottom: 18px;
+    border-bottom: 2px solid #828282;
+}
+
+.header__body-text {
+    line-height: 30px;
+    margin-left: 16px;
+}
+
+
+.header__body-hover:hover .header__body-text,
+.header__body-hover:hover .header__body-item1-icon{
+    color: #E71A1B;
+}
+
+.header__body-list-item-1:hover .header__body-list1-1{
+    display: block;
+}
+.header__body-list-item-2:hover .header__body-list1-2{
+    display: block;
+}
+.header__body-list-item-3:hover .header__body-list1-3{
+    display: block;
+}
+.header__body-list-item-4:hover .header__body-list1-4{
+    display: block;
+}
+
+/* ? HEaDER footer css */
+.header__footer {
+    height: 108px;
+}
+.header__footer-list {
+    background-image: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/bg-header-transparent-home.png);
+    background-repeat: no-repeat;
+    display: flex;
+    height: -webkit-fill-available;
+    list-style: none;
+    padding-left: 0;
+    border-bottom: 1px solid #222222;
+}
+.header__footer-list-item {
+}
+ 
+.header__footer-item-link {
+    height: 90px;
+    display: block;
+    width: 140px;
+    border-right: 1px solid #222222;
+}
+.header__footer-nogrid-image {
+    height: 100%;
+}
+
+.header__footer-border {
+    border-bottom: 1px solid #222222;
+    padding-bottom: -10px;
+}
+
+.header__footer-nogrid {
+    background-image: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg_c_bricks.png);
+    background-repeat: repeat-x;
+    margin-top: 16px;
+}
+.header__footer-image {
+    height: 450px;
+}
+/* ? SElection CSS */
+.container__selection {
+
+}
+
+.container__selection-title-list {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+.container__selection-title-item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container__selection-title-item-2 {
+    flex: 1;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.container__selection-title {
+    text-align: center;
+    font-size: 4.5rem;     
+}
+
+
+.container__selection-title-border {
+    flex: 1;
+}
+
+.container__selection-title-border:first-child {
+    border-bottom: 1px solid #222;
+    margin-bottom: 3px;
+}
+
+.container__selection-title-border:last-child {
+    border-top: 1px solid #222;
+    margin-top: 3px;
+}
+
+.container__selection-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0;
+    height: 358px;
+}
+
+.container__selection-item-img {
+    height: 100%;
+}
+.container__selection-item {
+    background-image: url(https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/r/s/rsz_main-poster_rom_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    
+}
+.container__selection-item:hover .container__selection-list-hover {
+    opacity: 1;
+}
+.container__selection-item:hover .container__selection-listitem{
+    background-color: rgba(1,1,1,0.19);
+}
+/* ?BTN hover cSS */
+.container__selection-listitem {
+}
+.container__selection-list-hover {
+    position: relative;
+    color: var(--white-color);
+    height: 100%;
+    bottom: -214px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.container__selection-btn-body {
+}
+
+.container__selection-btn-arrow {
+    font-size: 1.8rem;
+}
+
+.container__selection-btn-play {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 58px;
+    width: 58px;
+    transform: translate(158%,-200%);
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    line-height: none;
+    background-color: #BF2828;
+    border-radius: 8px;
+    border: 1px solid #E23434;
+}
+
+.container__selection-btn-text{
+    font-size: 1.4rem;
+    color: var(--white-color);
+    font-weight: 700;
+}
+.container__selection-btn-detail {
+    padding: 8px 10px;
+    background-color: #E71A0F;
+    outline: none;
+    line-height: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 6px;
+    color: var(--white-color);
+}
+.container__selection-btn-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8px;
+    transform: translateY(-40%);
+}
+
+.container__selection-btn-body {
+    width: 242px;
+    height: 80px;
+    background-color: rgb(4, 4, 4,0.7);
+    margin-bottom: 5px;
+}
+
+.container__selection-btn-icon {
+    display: inline-block;
+    margin-right: 4px;
+
+}
+
+.container__selection-btn-footer {
+    font-size: 1.4rem;
+}
+
+.container__selection-btn-title {
+    text-align: center;
+    transform: translateY(-16%);
+}
+
+.container__selection-btn-detail-padding {
+    padding: 4px 4px;
+}
+
+.container__selection-btn-padding {
+    padding: 3px 5px;
+    border-radius: 6px;
+    border: 1px solid #F07469;
+}
